@@ -1,8 +1,55 @@
-/** @type{import('next').NextConfig} */
+const path = require('path')
+
+/** @type{import('eslint').ESLint.ConfigData} */
 module.exports = {
-  extends: ["next", "turbo", "prettier"],
-  rules: {
-    "@next/next/no-html-link-for-pages": "off",
-    "react/jsx-key": "off",
+  root: true,
+  parser: '@typescript-eslint/parser',
+  // plugins: ['@typescript-eslint'],
+  extends: [
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'airbnb',
+    'airbnb-typescript',
+    'airbnb/hooks',
+    'plugin:tailwindcss/recommended',
+    'plugin:@next/next/recommended',
+    'turbo',
+    'plugin:prettier/recommended',
+  ],
+  parserOptions: {
+    project: 'packages/tsconfig/eslint.json',
+    tsconfigRootDir: path.join(__dirname, '..', '..'),
   },
-};
+  env: {
+    es6: true,
+    browser: true,
+    node: true,
+  },
+  rules: {
+    'import/no-extraneous-dependencies': 0,
+    'import/no-relative-packages': 0,
+    'import/extensions': 0,
+    'import/prefer-default-export': 0,
+    'no-param-reassign': [
+      2,
+      {
+        props: true,
+        ignorePropertyModificationsFor: ['state', 'req'],
+      },
+    ],
+    'no-restricted-syntax': [2, 'ForInStatement', 'LabeledStatement', 'WithStatement'],
+    'no-underscore-dangle': 0,
+    'global-require': 0,
+    'react/jsx-key': 0,
+    'react/jsx-props-no-spreading': 0,
+    'react/react-in-jsx-scope': 0,
+    'react/require-default-props': 0,
+    '@typescript-eslint/no-var-requires': 0,
+    '@next/next/no-html-link-for-pages': 0,
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
+}
