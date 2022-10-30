@@ -19,7 +19,6 @@
     "@org/tsconfig": "*",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
-    "eslint": "^8.26.0",
     "eslint-config-org": "*",
     "react": "^18.2.0",
     "tsup": "^6.3.0",
