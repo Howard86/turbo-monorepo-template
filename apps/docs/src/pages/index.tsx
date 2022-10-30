@@ -6,8 +6,8 @@ export default function Docs() {
     console.log("@org docs page");
   }, []);
   return (
-    <div>
-      <h1>@org Documentation</h1>
+    <div className="flex flex-col items-center justify-center">
+      <h1 className="text-2xl font-bold text-zinc-700">@org Documentation</h1>
       <Button>Click me</Button>
     </div>
   );
