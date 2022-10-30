@@ -1,5 +1,5 @@
 {
-  "name": "@acme/docs",
+  "name": "@org/docs",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -10,18 +10,18 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf .next"
   },
   "dependencies": {
-    "@acme/core": "*",
-    "@acme/utils": "*",
-    "next": "latest",
+    "@org/core": "*",
+    "@org/utils": "*",
+    "next": "^13.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@acme/tsconfig": "*",
-    "@types/node": "^17.0.12",
-    "@types/react": "^18.0.22",
-    "@types/react-dom": "^18.0.7",
-    "eslint-config-acme": "*",
-    "typescript": "^4.5.4"
+    "@org/tsconfig": "*",
+    "@types/node": "^18.11.7",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "eslint-config-org": "*",
+    "typescript": "^4.8.4"
   }
 }

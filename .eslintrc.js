@@ -1,7 +1,7 @@
+/** @type{import('eslint').ESLint.ConfigData} */
 module.exports = {
   root: true,
-  // This tells ESLint to load the config from the package `eslint-config-acme`
-  extends: ["acme"],
+  extends: ["org"],
   settings: {
     next: {
       rootDir: ["apps/*/"],

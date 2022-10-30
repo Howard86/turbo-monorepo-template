@@ -1,3 +1,4 @@
+/** @type{import('next').NextConfig} */
 module.exports = {
   extends: ["next", "turbo", "prettier"],
   rules: {
