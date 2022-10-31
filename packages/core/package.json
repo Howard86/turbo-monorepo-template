@@ -16,10 +16,10 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "devDependencies": {
-    "@org/tsconfig": "*",
+    "@org/tsconfig": "workspace:*",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
-    "eslint-config-org": "*",
+    "eslint-config-org": "workspace:*",
     "react": "^18.2.0",
     "tsup": "^6.3.0",
     "typescript": "^4.8.4"
