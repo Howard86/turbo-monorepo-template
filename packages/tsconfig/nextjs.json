@@ -12,9 +12,8 @@
     "module": "esnext",
     "noEmit": true,
     "resolveJsonModule": true,
-    "rootDir": "src",
+    "rootDir": ".",
     "target": "es5"
   },
-  "include": ["src", "next-env.d.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", ".next", ".turbo"]
 }

@@ -24,7 +24,18 @@ module.exports = {
     es6: true,
     browser: true,
     node: true,
+    jest: true,
   },
+  overrides: [
+    {
+      files: ['**/*.spec.ts', '**/*.spec.tsx', '**/*.test.ts', '**/*.test.tsx'],
+      plugins: ['jest'],
+      extends: ['plugin:jest/all', 'plugin:testing-library/react'],
+      rules: {
+        'jest/no-hooks': 0,
+      },
+    },
+  ],
   rules: {
     'import/no-extraneous-dependencies': 0,
     'import/no-relative-packages': 0,

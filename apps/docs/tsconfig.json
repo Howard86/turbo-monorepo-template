@@ -2,9 +2,11 @@
   "exclude": ["node_modules"],
   "extends": "@org/tsconfig/nextjs.json",
   "compilerOptions": {
-    "rootDir": "src",
-    "outDir": "dist",
-    "incremental": true
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
-  "include": ["src", "next-env.d.ts"]
+  "include": ["**/*.ts", "**/*.tsx", "next-env.d.ts"]
 }
