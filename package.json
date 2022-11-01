@@ -9,7 +9,7 @@
     "clean": "turbo run clean && rm -rf node_modules",
     "format": "prettier --write --list-different \"**/*.{ts,tsx,md}\"",
     "changeset": "changeset",
-    "version-packages": "changeset version",
+    "version-packages": "changeset version && pnpm install --lockfile-only",
     "release": "turbo run build --filter=docs^... && changeset publish",
     "prepare": "husky install"
   },
