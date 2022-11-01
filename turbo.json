@@ -1,12 +1,13 @@
 {
   "$schema": "https://turborepo.org/schema.json",
+  "globalDependencies": ["$ANALYZE"],
   "pipeline": {
     "build": {
       "outputs": ["dist/**", ".next/**"],
       "dependsOn": ["^build"]
     },
     "test": {
-      "outputs": ["coverage/**"],
+      "outputs": [],
       "dependsOn": []
     },
     "lint": {
@@ -16,6 +17,9 @@
       "cache": false
     },
     "clean": {
+      "cache": false
+    },
+    "test:watch": {
       "cache": false
     }
   }
