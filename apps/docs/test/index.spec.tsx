@@ -6,6 +6,6 @@ describe('docs', () => {
     expect.hasAssertions()
     render(<Docs />)
 
-    expect(screen.getByText(/@org Documentation/i)).toBeInTheDocument()
+    expect(screen.getByText(/Turbo Monorepo Template/i)).toBeInTheDocument()
   })
 })

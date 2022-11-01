@@ -1,3 +1,7 @@
 const config = require('@org/tailwind-config')
 
-module.exports = config
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  ...config,
+  content: ['src/**/*.{ts,tsx}', '../../packages/core/src/**/*.{ts,tsx}'],
+}
