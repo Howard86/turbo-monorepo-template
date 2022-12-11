@@ -4,4 +4,11 @@ const config = require('@org/tailwind-config')
 module.exports = {
   ...config,
   content: ['src/**/*.{ts,tsx}', '../../packages/core/src/**/*.{ts,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        brand: '#58B2DC',
+      },
+    },
+  },
 }

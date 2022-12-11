@@ -50,7 +50,7 @@ const features: CardProps[] = [
 
 export default function Example() {
   return (
-    <main>
+    <main className="bg-brand/50">
       {/* Feature section with grid */}
       <div className="relative bg-white py-16 sm:py-24 lg:py-32">
         <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
