@@ -38,7 +38,7 @@ importers:
       prettier-plugin-tailwindcss: ^0.2.0
       react: ^18.2.0
       react-dom: ^18.2.0
-      react-html-props: ^1.0.33
+      react-html-props: ^2.0.0
       tsup: ^6.3.0
       turbo: ^1.6.2
       typescript: ^4.8.4
@@ -77,7 +77,7 @@ importers:
       prettier-plugin-tailwindcss: 0.2.5_prettier@2.7.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      react-html-props: 1.0.33_react@18.2.0
+      react-html-props: 2.0.2_biqbaboplfbrettd7655fr4n2y
       tsup: 6.3.0_typescript@4.8.4
       turbo: 1.6.2
       typescript: 4.8.4
@@ -7087,12 +7087,14 @@ packages:
       react: 18.2.0
       scheduler: 0.23.0
 
-  /react-html-props/1.0.33_react@18.2.0:
-    resolution: {integrity: sha512-AmQb+N22J1P0VDPte/ttg3yyvp/j/aVQIPDyuS+5A8azFP3hAMC29Ab2YWM+pja+yy5lo54D6VNqg7UIjqhV6g==}
+  /react-html-props/2.0.2_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-5spuo3V4d39C8EGFPkI7k2XpOP0Nu3SwG2g5LwBZ9C0eT6VTxIpYo3skm1lOtp6Zla461MutNMA9HCoFqnM4vg==}
     peerDependencies:
-      react: '>=16'
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0
     dependencies:
       react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: true
 
   /react-is/16.13.1:
