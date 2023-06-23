@@ -20,11 +20,11 @@
   "devDependencies": {
     "@org/jest-config": "workspace:*",
     "@org/tsconfig": "workspace:*",
-    "@types/react": "^18.0.24",
-    "@types/react-dom": "^18.0.8",
+    "@types/react": "^18.2.13",
+    "@types/react-dom": "^18.2.6",
     "eslint-config-org": "workspace:*",
     "react": "^18.2.0",
-    "tsup": "^6.3.0"
+    "tsup": "^7.0.0"
   },
   "publishConfig": {
     "access": "public"
