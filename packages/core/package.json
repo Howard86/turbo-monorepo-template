@@ -24,7 +24,7 @@
     "@org/tsconfig": "workspace:*",
     "@types/react": "^18.2.13",
     "@types/react-dom": "^18.2.6",
-    "clsx": "^1.2.1",
+    "clsx": "^2.0.0",
     "eslint-config-org": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
