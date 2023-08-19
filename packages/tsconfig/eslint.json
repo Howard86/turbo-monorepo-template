@@ -6,9 +6,12 @@
     "allowJs": true,
     "noEmit": true
   },
-  "include": ["../../**/*.ts", "../../**/*.tsx", "../../**/*.js",
-
-"../../**/*.mjs"
-],
+  "include": [
+    "../../**/*.ts",
+    "../../**/*.tsx",
+    "../../**/*.js",
+    "../../**/*.mjs",
+    "../../**/.eslintrc.js"
+  ],
   "exclude": ["node_modules", "dist", ".next", ".turbo"]
 }
