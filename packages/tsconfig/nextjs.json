@@ -11,9 +11,12 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "module": "esnext",
     "noEmit": true,
+    "plugins": [{ "name": "next" }],
     "resolveJsonModule": true,
     "rootDir": ".",
+    "strict": true,
     "target": "es5"
   },
-  "exclude": ["node_modules", ".next", ".turbo"]
+  "include": ["src", "next-env.d.ts", ".next", ".turbo"],
+  "exclude": ["node_modules"]
 }

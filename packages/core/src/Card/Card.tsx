@@ -14,7 +14,7 @@ export function Card({ Icon, name, description, href, className }: CardProps) {
     <div
       className={clsx(
         'group flex justify-center gap-4 rounded-lg bg-gray-50 p-4 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md md:flex-col md:justify-start',
-        className
+        className,
       )}
     >
       <div className="flex items-center justify-center md:-translate-y-6">

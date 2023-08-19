@@ -9,7 +9,12 @@ describe('card', () => {
   it('should render', () => {
     expect.hasAssertions()
     render(
-      <Card name="MOCK_NAME" description="MOCK_DESCRIPTION" href="MOCK_HREF" Icon={EmptyIcon} />
+      <Card
+        name="MOCK_NAME"
+        description="MOCK_DESCRIPTION"
+        href="MOCK_HREF"
+        Icon={EmptyIcon}
+      />,
     )
 
     expect(screen.getByText('MOCK_NAME')).toBeInTheDocument()

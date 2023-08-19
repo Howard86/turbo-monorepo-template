@@ -5,6 +5,9 @@ module.exports = {
   root: true,
   extends: ['org'],
   rules: {
-    'tailwindcss/no-custom-classname': [1, { config: path.join(__dirname, 'tailwind.config.js') }],
+    'tailwindcss/no-custom-classname': [
+      1,
+      { config: path.join(__dirname, 'tailwind.config.js') },
+    ],
   },
 }

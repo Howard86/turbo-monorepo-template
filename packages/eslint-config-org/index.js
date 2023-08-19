@@ -47,7 +47,12 @@ module.exports = {
         ignorePropertyModificationsFor: ['state', 'req'],
       },
     ],
-    'no-restricted-syntax': [2, 'ForInStatement', 'LabeledStatement', 'WithStatement'],
+    'no-restricted-syntax': [
+      2,
+      'ForInStatement',
+      'LabeledStatement',
+      'WithStatement',
+    ],
     'no-underscore-dangle': 0,
     'global-require': 0,
     'react/jsx-key': 0,

@@ -24,13 +24,15 @@ const features: CardProps[] = [
   },
   {
     name: 'Next.js',
-    description: 'Next.js gives you the best developer experience of React for production.',
+    description:
+      'Next.js gives you the best developer experience of React for production.',
     href: 'https://nextjs.org/',
     Icon: BriefcaseIcon,
   },
   {
     name: 'Tailwindcss',
-    description: 'Rapidly build modern websites without ever leaving your HTML.',
+    description:
+      'Rapidly build modern websites without ever leaving your HTML.',
     href: 'https://tailwindcss.com/',
     Icon: CursorArrowRaysIcon,
   },
@@ -42,7 +44,8 @@ const features: CardProps[] = [
   },
   {
     name: 'Jest',
-    description: 'Jest is a delightful JavaScript Testing Framework with a focus on simplicity.',
+    description:
+      'Jest is a delightful JavaScript Testing Framework with a focus on simplicity.',
     href: 'https://jestjs.io/',
     Icon: BeakerIcon,
   },
