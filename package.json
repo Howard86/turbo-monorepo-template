@@ -23,7 +23,7 @@
     "@commitlint/config-conventional": "^17.7.0",
     "@next/bundle-analyzer": "^13.4.19",
     "@org/prettier-config": "workspace:*",
-    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/jest-dom": "^6.0.0",
     "@testing-library/react": "^14.0.0",
     "@types/jest": "^29.5.3",
     "@types/testing-library__jest-dom": "^5.14.9",
