@@ -10,6 +10,7 @@
     "lint": "TIMING=1 next lint",
     "test": "jest",
     "test:watch": "jest --watch",
+    "type-check": "tsc --noEmit",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf .next"
   },
   "dependencies": {

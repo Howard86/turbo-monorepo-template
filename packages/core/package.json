@@ -15,6 +15,7 @@
     "lint": "TIMING=1 eslint \"src/**/*.ts*\"",
     "test": "jest",
     "test:watch": "jest --watch",
+    "type-check": "tsc --noEmit",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "devDependencies": {
