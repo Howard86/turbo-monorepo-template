@@ -22,14 +22,14 @@
     "@org/jest-config": "workspace:^0.0.1",
     "@org/tailwind-config": "workspace:^0.0.2",
     "@org/tsconfig": "workspace:*",
-    "@types/react": "^18.2.13",
-    "@types/react-dom": "^18.2.6",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
     "clsx": "^2.0.0",
     "eslint-config-org": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tsup": "^7.0.0",
-    "typescript": "^5.1.3"
+    "tsup": "^7.2.0",
+    "typescript": "^5.1.6"
   },
   "publishConfig": {
     "access": "public"
