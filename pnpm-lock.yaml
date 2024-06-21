@@ -236,7 +236,7 @@ importers:
         version: 12.1.0(eslint@8.57.0)
       eslint-plugin-tailwindcss:
         specifier: ^3.13.0
-        version: 3.17.3(tailwindcss@3.4.4)
+        version: 3.17.4(tailwindcss@3.4.4)
       eslint-plugin-testing-library:
         specifier: ^6.0.0
         version: 6.2.2(eslint@8.57.0)(typescript@5.5.2)
@@ -2583,8 +2583,8 @@ packages:
     peerDependencies:
       eslint: '>=5.0.0'
 
-  eslint-plugin-tailwindcss@3.17.3:
-    resolution: {integrity: sha512-DVMVVUFQ+lPraRSuUk2I41XMnusXT6b3WaQZYlUHduULnERaqe9sNfmpRY1IyxlzmKoQxSbZ8IHRhl9ePo8PeA==}
+  eslint-plugin-tailwindcss@3.17.4:
+    resolution: {integrity: sha512-gJAEHmCq2XFfUP/+vwEfEJ9igrPeZFg+skeMtsxquSQdxba9XRk5bn0Bp9jxG1VV9/wwPKi1g3ZjItu6MIjhNg==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       tailwindcss: ^3.4.0
@@ -8018,7 +8018,7 @@ snapshots:
     dependencies:
       eslint: 8.57.0
 
-  eslint-plugin-tailwindcss@3.17.3(tailwindcss@3.4.4):
+  eslint-plugin-tailwindcss@3.17.4(tailwindcss@3.4.4):
     dependencies:
       fast-glob: 3.3.2
       postcss: 8.4.38
